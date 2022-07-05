@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-queue",
+    "name": "algsupport/yii2-queue",
     "description": "Yii2 Queue Extension which supported DB, Redis, RabbitMQ, Beanstalk, SQS and Gearman",
     "type": "yii2-extension",
     "keywords": ["yii", "queue", "async", "gii", "db", "redis", "rabbitmq", "beanstalk", "gearman", "sqs"],
@@ -11,14 +11,14 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-queue/issues",
-        "source": "https://github.com/yiisoft/yii2-queue",
-        "docs": "https://github.com/yiisoft/yii2-queue/blob/master/docs/guide"
+        "issues": "https://github.com/algsupport/yii2-queue/issues",
+        "source": "https://github.com/algsupport/yii2-queue",
+        "docs": "https://github.com/algsupport/yii2-queue/blob/master/docs/guide"
     },
     "require": {
-        "php": ">=5.5.0",
-        "yiisoft/yii2": "~2.0.14",
-        "symfony/process": "^3.3||^4.0||^5.0"
+        "php": ">=8.1",
+        "yiisoft/yii2": "*",
+        "symfony/process": "*"
     },
     "require-dev": {
         "yiisoft/yii2-redis": "*",
